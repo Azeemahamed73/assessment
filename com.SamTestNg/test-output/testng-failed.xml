@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestNgtest(failed)">
+    <parameter name="name" value="7094529045"/>
+    <classes>
+      <class name="com.SamTestNg.sampTest">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="gettheelement" invocation-numbers="0"/>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- com.SamTestNg.sampTest -->
+    </classes>
+  </test> <!-- TestNgtest(failed) -->
+</suite> <!-- Failed suite [SuiteTest] -->
